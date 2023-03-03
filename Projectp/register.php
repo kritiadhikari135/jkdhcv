@@ -20,7 +20,7 @@
             <div class="row">
 
                 <label for="username">User Name</label>
-                <input type="text" id="username" name="userName" placeholder="Enter user Name" required>
+                <input type="text" id="username" name="userName" placeholder="Enter user Name" required autocomplete="new_name">
             </div>
             <div class="row">
 
@@ -35,7 +35,7 @@
             <div class="row">
 
                 <label for="username">Password</label>
-                <input type="text" id="Password" name="Password" placeholder="Enter your Password" required minlength="6">
+                <input type="text" id="Password" name="Password" placeholder="Enter your Password" required minlength="6" autocomplete="new_password">
             </div>
            
             <div class="row">
