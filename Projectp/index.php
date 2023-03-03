@@ -28,11 +28,11 @@ if (isset($_SESSION['accountcreated'])) {
         <div class="row grid">
             <div class="row">
                 <label for="username">User Name</label>
-                <input type="text" id="username" name="userName" placeholder="Enter user Name" required>
+                <input type="text" id="username" name="userName" placeholder="Enter user Name" required autocomplete="New_name">
             </div>
             <div class="row">
                 <label for="Password">Password</label>
-                <input type="text" id="Password" name="Password" placeholder="Enter your Password" required>
+                <input type="text" id="Password" name="Password" placeholder="Enter your Password" required autocomplete="new_password">
             </div>
             <div class="row">
                 <input type="submit" id="submitBtn" name="submit" value="Login">
